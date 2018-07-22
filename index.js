@@ -19,7 +19,7 @@ function getSubTilePixel(image, startX, startY) {
           image.getPixelColor(startX, y2) !== BORDER_COLOR
           && image.getPixelColor(startX, y2 + 1) === BORDER_COLOR
         ) {
-          return [ startX , startY, x2 - startX, y2 - startY];
+          return [ startX , startY, x2 + 1 - startX, y2 + 1 - startY];
         }
       }
     }
