@@ -1,5 +1,5 @@
 {
-  "name": "pixel-croper",
+  "name": "sub-tiles-cropper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/manaten/pixel-croper.git"
+    "url": "git+ssh://git@github.com/manaten/sub-tiles-cropper.git"
   },
   "author": "",
   "license": "MIT",
